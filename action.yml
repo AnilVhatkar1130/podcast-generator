@@ -15,5 +15,5 @@ branding:
     name:
       description: The commiters's name
       requierd: true
-      default: ${{ github.actor }}
+      default: @${{ github.actor }}
       
